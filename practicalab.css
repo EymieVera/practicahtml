@@ -1,0 +1,148 @@
+body {
+    background: url('images_zozor only/fond_jaune.png');
+    width: 80%;
+    margin: 0 auto;
+    position: center;
+}
+
+header {
+    height: 170px;
+    width: 100%;
+}
+
+.titulo {
+    width: 58%;
+    min-height: 1px;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tmenu {
+    width: 40%;
+    min-height: 1px;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    border-radius: 15px;
+    padding-top: 100px;
+}
+
+nav {
+    position: relative;
+    display: inline-block;
+}
+
+nav img {
+    border-radius: 10px;
+}
+
+.pieimg {
+    position: absolute;
+    top: 90%;
+    left: 17%;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    transform: translate(-17%, -50%);
+    background-color: rgba(22, 21, 21, 0.6);
+    border-radius: 10px;
+}
+
+.pieimg p {
+    margin-left: 5px;
+    color: white;
+}
+
+.texto {
+    width: 77%;
+}
+
+.boton {
+    width: 10.5%;
+    height: 20%;
+    float: left;
+    font-size: 100%;
+    background-color: rgb(182, 16, 16);
+    border-radius: 7px;
+}
+
+section {
+    width: 90%;
+}
+
+article {
+    width: 64%;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+
+.triangulo {
+    width: 1.3%;
+    min-height: 1px;
+    padding-top: 10%;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    background-color: rgba(22, 21, 21, 0.6);
+    border-radius: 15px;
+}
+
+aside p {
+    color: white;
+    font-size: 100%;
+}
+
+aside h2 {
+    color: white;
+    font-size: 120%;
+}
+
+.donkey {
+    display: block;
+    margin: auto;
+}
+
+.row {
+    padding: -15px;
+}
+
+.columna {
+    width: 29, 33333%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 30px;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+body espacio {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+}
