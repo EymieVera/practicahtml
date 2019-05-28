@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    height: 170px;
+    height: 100px;
     width: 100%;
 }
 
@@ -16,7 +16,6 @@ header {
     position: relative;
     float: left;
     font-size: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .tmenu {
@@ -29,7 +28,12 @@ header {
     padding-top: 100px;
 }
 
+.tmenu a {
+    text-decoration: none;
+}
+
 nav {
+    border-top: 2px solid black;
     position: relative;
     display: inline-block;
 }
@@ -60,12 +64,17 @@ nav img {
 }
 
 .boton {
-    width: 10.5%;
-    height: 20%;
-    float: left;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #760001;
+    border-radius: 5px;
     font-size: 100%;
-    background-color: rgb(182, 16, 16);
-    border-radius: 7px;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
 }
 
 section {
@@ -138,6 +147,10 @@ aside h2 {
 
 p {
     text-align: justify;
+}
+
+.foot {
+    border-top: 2px solid black;
 }
 
 body espacio {
